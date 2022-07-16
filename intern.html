@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+      <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>College Internships</title>
+      <link rel="stylesheet" href="hsStyle.css">
+    </head>
+
+<style>
+    .popup{
+        background-color: #ffffff;
+        width: 420px;
+        padding: 30px 40px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: "Poppins",sans-serif;
+        display: none;
+        text-align: center;
+        box-shadow: 5px 5px 30px rgba(0,0,0,.2);
+        z-index: 100;
+    }
+    h2{
+      margin-top: 10px;
+      font-size: 25px;
+    }
+    .popup button{
+        display: block;
+         position: absolute;
+      top: 0;
+      right: 0;
+        margin: 10px 10px auto;
+        background-color: transparent;
+        font-size: 30px;
+        color: #ffffff;
+            background: #61412a;
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .popup p{
+        font-size: 14px;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 25px;
+    }
+    .link{
+        width: 150px;
+        position: relative;
+        font-size: 17px;
+        display: inline-block;;
+        background-color: #61412a;
+        border-radius: 10px;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+        </style>
+    </head>
+    <body>
+        <div class="popup">
+    
+           <div class="fab fa-youtube icon1"></div>
+           <button id="close">&times;</button>
+    
+    
+            <h2>Attention!</h2>
+            <p>
+                This page is still a work in progress. 
+                Estimated finish date is after the internship application cycle for summer 2023. 
+                <br>
+                (I'm still in application processes right now :P)
+                <br>
+                For now, please refer to my ongoing spreadsheet of internships that I am applying for this job season!
+            </p>
+            <a class="link" href="index.html">Back to Home</a>
+            <a class="link" href="https://docs.google.com/spreadsheets/d/1vHoYDNO8WU-MU4cBam_bVra2nVKF6JQM5I-rE1XE7Fo/edit?usp=sharing">Spreadsheet</a>
+        </div>
+        <!--Script-->
+        <script type="text/javascript">
+    window.addEventListener("load", function(){
+        setTimeout(
+            function open(event){
+                document.querySelector(".popup").style.display = "block";
+            },
+            500
+        )
+    });
+    
+    
+    document.querySelector("#close").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "none";
+    });
+        </script>
+
+    <body>
+    <center>
+    <header>
+    <h1>
+       College Internships
+     </h1>
+    </header>
+     </center>
+    <section>
+        <details>
+            <summary> 
+
+            </summary>
+              <p>
+                Company:  <br><br>
+                Description:  <br><br>
+                <a href="" style="color:#61412a; text-decoration: none;">Click here for more information.</a>     
+              </p>
+        </details>
+        
+      </section>
+
+      <button class="scrollToTopBtn">↑</button>
+
+</body>
+<!--Nav Bar-->
+<div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="navigation__button">
+    <span class="navigation__icon" aria-label="toggle navigation menu"></span>
+</label>
+<div class="navigation__background"></div>
+
+<nav class="navigation__nav" role="navigation">
+<ul class="navigation__list">
+    <li class="navigation__item">
+        <a href="index.html" class="navigation__link">Home</a>
+    </li>
+    <li class="navigation__item">
+        <a href="hs.html" class="navigation__link">High School</a>
+    </li>
+    <li class="navigation__item">
+        <a href="intern.html" class="navigation__link">Internships</a>
+    </li>
+    </li>
+    <li class="navigation__item">
+        <a href="resources.html" class="navigation__link">More Resources</a>
+    </li>
+    <li class="navigation__item">
+        <a href="https://docs.google.com/spreadsheets/d/12B5Z_Lkw8qyds4lwkrbELIx9yCUsJ2Z9XZtQRxmh9a4/copy#gid=1404683833" target="_blank" class="navigation__link">Organizer</a>
+    </li>
+    <li class="navigation__item">
+        <a href="contact.html" class="navigation__link">Contact</a>
+    </li>
+</ul>
+</nav>
+</div>
+
+</html>
