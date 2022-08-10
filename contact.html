@@ -7,6 +7,9 @@
   <title>Contact Me</title>
   <link href="contact.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script async defer src="https://js.appointlet.com/"></script>
+  <link href="https://js.appointlet.com/styles.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -14,7 +17,7 @@
     <center>
         <a href="https://www.linkedin.com/in/kathrynccruz/" target="_blank" class="fa fa-linkedin"></a>
     <a href="mailto:kathryncruz411@gmail.com" target="_blank" class="fa fa-envelope"></a>
-    <a href="#" target="_blank" class="fa fa-phone"></a>
+    <a data-appointlet-modal href="https://appt.link/kathryncruz" class="fa fa-phone"></a>
     <h1>Contact Me</h1>
     
 </center>
@@ -36,7 +39,8 @@
 
 <form action="https://api.web3forms.com/submit" method="POST" id="form">
       <h2>Contact Me</h2>
-      <br>
+      <button data-appointlet-modal href="https://appt.link/kathryncruz">Meet with Me</button>
+      <br> <br>
       <input type="hidden" name="access_key" value="6ad791bb-aba3-4729-ac84-caf5cc3955cb" />
       <input type="hidden" name="subject" value="New Submission from College Prep Site" />
       <input type="hidden" name="redirect" value="https://web3forms.com/success" />
