@@ -19,6 +19,7 @@ background-color: #61412a;
   }
   
   .fa:hover {
+    cursor: pointer;
       opacity: 0.7;
   }
 
@@ -113,6 +114,7 @@ label {
   }
   
   button {
+    cursor: pointer;
     width: 25%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -233,8 +235,10 @@ body {
   }
   
   .navigation__link:hover {
+        cursor: pointer;
       color: #e4ddc9;
       transform: scale(1.15);
+
   }
   
   .navigation__checkbox:checked~.navigation__background {

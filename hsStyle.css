@@ -210,6 +210,7 @@ details p {
 }
 
 .navigation__link:hover {
+    cursor: pointer;
     color: #e4ddc9;
     transform: scale(1.15);
 }
