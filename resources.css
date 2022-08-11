@@ -35,6 +35,7 @@ h1 {
 }
 
 button {
+    font-family: 'Montserrat', sans-serif;
     transition: all 0.25s ease; 
     color: #61412a;
     display: inline-block;
@@ -49,6 +50,7 @@ button {
   }
   
   button:hover {
+    font-family: 'Montserrat', sans-serif;
     transition: all 0.25s ease; 
     box-shadow: inset 0 0 3px #000000;
     color: #61412a;

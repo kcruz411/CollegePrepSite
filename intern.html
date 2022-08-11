@@ -8,126 +8,79 @@
       <link rel="stylesheet" href="hsStyle.css">
     </head>
 
-<style>
-    .popup{
-        background-color: #ffffff;
-        width: 420px;
-        padding: 30px 40px;
-        position: absolute;
-        transform: translate(-50%,-50%);
-        left: 50%;
-        top: 50%;
-        border-radius: 8px;
-        font-family: "Poppins",sans-serif;
-        display: none;
-        text-align: center;
-        box-shadow: 5px 5px 30px rgba(0,0,0,.2);
-        z-index: 100;
-    }
-    h2{
-      margin-top: 10px;
-      font-size: 25px;
-    }
-    .popup button{
-        display: block;
-         position: absolute;
-      top: 0;
-      right: 0;
-        margin: 10px 10px auto;
-        background-color: transparent;
-        font-size: 30px;
-        color: #ffffff;
-            background: #61412a;
-            border-radius: 100%;
-            width: 40px;
-            height: 40px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
     
-    .popup p{
-        font-size: 14px;
-        text-align: center;
-        margin: 20px 0;
-        line-height: 25px;
-    }
-    .link{
-        width: 150px;
-        position: relative;
-        font-size: 17px;
-        display: inline-block;;
-        background-color: #61412a;
-        border-radius: 10px;
-        color: #ffffff;
-        text-decoration: none;
-        padding: 10px 0;
-        text-align: center;
-    }
-    
-        </style>
-    </head>
-    <body>
-        <div class="popup">
-    
-           <div class="fab fa-youtube icon1"></div>
-           <button id="close">&times;</button>
-    
-    
-            <h2>Attention!</h2>
-            <p>
-                This page is still a work in progress. 
-                Estimated finish date is after the internship application cycle for summer 2023. 
-                <br>
-                (I'm still in application processes right now :P)
-                <br>
-                For now, please refer to my ongoing spreadsheet of internships that I am applying for this job season!
-            </p>
-            <a class="link" href="index.html">Back to Home</a>
-            <a class="link" href="https://docs.google.com/spreadsheets/d/1vHoYDNO8WU-MU4cBam_bVra2nVKF6JQM5I-rE1XE7Fo/edit?usp=sharing">Spreadsheet</a>
-        </div>
-        <!--Script-->
-        <script type="text/javascript">
-    window.addEventListener("load", function(){
-        setTimeout(
-            function open(event){
-                document.querySelector(".popup").style.display = "block";
-            },
-            500
-        )
-    });
-    
-    
-    document.querySelector("#close").addEventListener("click", function(){
-        document.querySelector(".popup").style.display = "none";
-    });
-        </script>
-
-    <body>
     <center>
     <header>
     <h1>
        College Internships
      </h1>
     </header>
-     </center>
-    <section>
-        <details>
-            <summary> 
+     
 
-            </summary>
-              <p>
-                Company:  <br><br>
-                Description:  <br><br>
-                <a href="" style="color:#61412a; text-decoration: none;">Click here for more information.</a>     
-              </p>
-        </details>
-        
-      </section>
+     <br> 
 
-      <button class="scrollToTopBtn">↑</button>
+     <body>
 
+    <h2 style="text-decoration: underline;">Company Recommendations for Undergrad Internships</h2>
+</center>
+<br>
+        <div class="cards">
+            <div class="card">Abbott<br><br><button onclick="window.location.href='https://www.abbott.com/careers.html';">Career Site Page</button></div>
+            <div class="card">Accenture<br><br><button onclick="window.location.href='https://www.accenture.com/us-en/careers?c=car_glb_brandexpressiongoogle_12461530&n=psgs_1021&gclid=CjwKCAjw0dKXBhBPEiwA2bmObZxZzE-nTQgdW1U0YxFZP_x53zNDPbp0hTRV_6JOzg0j7Hg8BvHmxxoCkMEQAvD_BwE&gclsrc=aw.ds';">Career Site Page</button></div>
+            <div class="card">Amazon<br><br><button onclick="window.location.href='https://www.amazon.jobs/en/';">Career Site Page</button></div>
+            <div class="card">AMD<br><br><button onclick="window.location.href='https://www.amd.com/en/corporate/careers';">Career Site Page</button></div>
+            <div class="card">Apple<br><br><button onclick="window.location.href='https://www.apple.com/careers/us/work-at-apple.html';">Career Site Page</button></div>
+            <div class="card">Applied Intuition<br><br><button onclick="window.location.href='https://www.appliedintuition.com/careers';">Career Site Page</button></div>
+            <div class="card">Avela<br><br><button onclick="window.location.href='https://avela.org/careers';">Career Site Page</button></div>
+            <div class="card">Capstone<br><br><button onclick="window.location.href='https://www.capstoneco.com/careers/';">Career Site Page</button></div>
+            <div class="card">Cisco<br><br><button onclick="window.location.href='https://www.cisco.com/c/en/us/about/careers.html';">Career Site Page</button></div>
+            <div class="card">Citadel<br><br><button onclick="window.location.href='https://www.citadel.com/careers/open-positions/';">Career Site Page</button></div>
+            <div class="card">D.E. Shaw<br><br><button onclick="window.location.href='https://www.deshaw.com/careers';">Career Site Page</button></div>
+            <div class="card">Deloitte<br><br><button onclick="window.location.href='https://www2.deloitte.com/us/en/careers/careers.html';">Career Site Page</button></div>
+            <div class="card">Dropbox<br><br><button onclick="window.location.href='https://www.dropbox.com/jobs/all-jobs';">Career Site Page</button></div>
+            <div class="card">DRW<br><br><button onclick="window.location.href='https://drw.com/work-at-drw/listings/';">Career Site Page</button></div>
+            <div class="card">Electronic Arts<br><br><button onclick="window.location.href='https://www.ea.com/careers';">Career Site Page</button></div>
+            <div class="card">Eluvio<br><br><button onclick="window.location.href='https://eluvio.co/careers/';">Career Site Page</button></div>
+            <div class="card">GE Appliances<br><br><button onclick="window.location.href='https://careers.geappliances.com/search/engineering/jobs';">Career Site Page</button></div>
+            <div class="card">GoDaddy<br><br><button onclick="window.location.href='https://careers.godaddy.com/';">Career Site Page</button></div>
+            <div class="card">Goldman Sachs<br><br><button onclick="window.location.href='https://www.goldmansachs.com/careers/';">Career Site Page</button></div>
+            <div class="card">Google<br><br><button onclick="window.location.href='https://careers.google.com/teams/?gclid=CjwKCAjw0dKXBhBPEiwA2bmObVh9W4iw0tT_yBDLElRWXqy22I7SbysX7JHDk25orRGDVJJVyl5RVRoCnb4QAvD_BwE&gclsrc=aw.ds&src=Online%2FHouse%20Ads%2FAdSitelinks';">Career Site Page</button></div>
+            <div class="card">HP<br><br><button onclick="window.location.href='https://jobs.hp.com/';">Career Site Page</button></div>
+            <div class="card">IBM<br><br><button onclick="window.location.href='https://www.ibm.com/us-en/employment/';">Career Site Page</button></div>
+            <div class="card">IDEX<br><br><button onclick="window.location.href='https://www.idexcorp.com/careers/';">Career Site Page</button></div>
+            <div class="card">IMC Trading<br><br><button onclick="window.location.href='https://careers.imc.com/us/en';">Career Site Page</button></div>
+            <div class="card">Intel<br><br><button onclick="window.location.href='https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html';">Career Site Page</button></div>
+            <div class="card">JW Player<br><br><button onclick="window.location.href='https://www.jwplayer.com/careers';">Career Site Page</button></div>
+            <div class="card">Klaviyo<br><br><button onclick="window.location.href='https://careers.klaviyo.com/';">Career Site Page</button></div>
+            <div class="card">Lenovo<br><br><button onclick="window.location.href='https://jobs.lenovo.com/en_US/careers';">Career Site Page</button></div>
+            <div class="card">Meta<br><br><button onclick="window.location.href='https://www.metacareers.com/';">Career Site Page</button></div>
+            <div class="card">Microsoft<br><br><button onclick="window.location.href=https://careers.microsoft.com/us/en';">Career Site Page</button></div>
+            <div class="card">Nokia<br><br><button onclick="window.location.href='https://www.nokia.com/about-us/careers/';">Career Site Page</button></div>
+            <div class="card">Nordstrom<br><br><button onclick="window.location.href='https://careers.nordstrom.com/';">Career Site Page</button></div>
+            <div class="card">NVIDIA<br><br><button onclick="window.location.href='https://www.nvidia.com/en-us/about-nvidia/careers/';">Career Site Page</button></div>
+            <div class="card">OCC<br><br><button onclick="window.location.href='https://www.theocc.com/careers';">Career Site Page</button></div>
+            <div class="card">Ocient<br><br><button onclick="window.location.href='https://ocient.com/job-postings/';">Career Site Page</button></div>
+            <div class="card">Optiver<br><br><button onclick="window.location.href='https://optiver.com/working-at-optiver/graduate-and-student/?utm_term=optiver%20careers&utm_campaign=Branded&utm_source=adwords&utm_medium=ppc&hsa_acc=9417408149&hsa_cam=11122452663&hsa_grp=108652015186&hsa_ad=614408812704&hsa_src=g&hsa_tgt=kwd-341294866510&hsa_kw=optiver%20careers&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjw0dKXBhBPEiwA2bmObca2JiNisJpGq8PvtMzIDEc3zF1-cyL8Wh6e7heZxQQKLv7htNC6nhoCEP0QAvD_BwE';">Career Site Page</button></div>
+            <div class="card">Oracle<br><br><button onclick="window.location.href='https://www.oracle.com/corporate/careers/';">Career Site Page</button></div>
+            <div class="card">P&G<br><br><button onclick="window.location.href='https://www.pgcareers.com/';">Career Site Page</button></div>
+            <div class="card">Pintrest<br><br><button onclick="window.location.href='https://www.pinterestcareers.com/';">Career Site Page</button></div>
+            <div class="card">Prudential<br><br><button onclick="window.location.href='https://jobs.prudential.com/';">Career Site Page</button></div>
+            <div class="card">PWC<br><br><button onclick="window.location.href='https://www.pwc.com/us/en/careers.html';">Career Site Page</button></div>
+            <div class="card">Raytheon Technologies<br><br><button onclick="window.location.href='https://careers.rtx.com/global/en';">Career Site Page</button></div>
+            <div class="card">Salesforce<br><br><button onclick="window.location.href='https://www.salesforce.com/company/careers/';">Career Site Page</button></div>
+            <div class="card">Service Now<br><br><button onclick="window.location.href='https://careers.servicenow.com/careers/';">Career Site Page</button></div>
+            <div class="card">Sig<br><br><button onclick="window.location.href='https://careers.sig.com/';">Career Site Page</button></div>
+            <div class="card">Snapchat<br><br><button onclick="window.location.href='https://careers.snap.com/';">Career Site Page</button></div>
+            <div class="card">Stackline<br><br><button onclick="window.location.href='https://www.stackline.com/careers';">Career Site Page</button></div>
+            <div class="card">Synopsys<br><br><button onclick="window.location.href='https://www.synopsys.com/careers.html';">Career Site Page</button></div>
+            <div class="card">Twitter<br><br><button onclick="window.location.href='https://careers.twitter.com/';">Career Site Page</button></div>
+            <div class="card">Virtu Financial<br><br><button onclick="window.location.href='https://www.virtu.com/careers/';">Career Site Page</button></div>
+            <div class="card">West Monroe<br><br><button onclick="window.location.href='https://www.westmonroe.com/careers';">Career Site Page</button></div>
+          </div>
+ 
 </body>
+
+<button class="scrollToTopBtn">↑</button>
 <!--Nav Bar-->
 <div class="navigation">
     <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
@@ -162,3 +115,30 @@
 </div>
 
 </html>
+
+<script>
+    var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+    var rootElement = document.documentElement;
+    
+    function handleScroll() {
+      // Do something on scroll
+      var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+      if (rootElement.scrollTop / scrollTotal > 0.1) {
+        // Show button
+        scrollToTopBtn.classList.add("showBtn");
+      } else {
+        // Hide button
+        scrollToTopBtn.classList.remove("showBtn");
+      }
+    }
+    
+    function scrollToTop() {
+      // Scroll to top logic
+      rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+    scrollToTopBtn.addEventListener("click", scrollToTop);
+    document.addEventListener("scroll", handleScroll);
+    </script>
