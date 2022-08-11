@@ -56,7 +56,7 @@ button {
     color: #61412a;
     display: inline-block;
     cursor: pointer;
-    letter-spacing: 1.75px;
+    letter-spacing: 0.9px;
     position:relative;
     overflow:hidden;
     border: 2px solid #61412a;
